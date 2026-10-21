@@ -1,11 +1,137 @@
-<!DOCTYPE html>
+
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>大垣・本巣エリアの2大ショッピングモールナビ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- ヘッダー -->
+    <header>
+        <div class="container">
+            <div class="logo">MallNavi 西濃・本巣</div>
+            <nav>
+                <ul>
+                    <li><a href="#malls">モール一覧</a></li>
+                    <li><a href="#compare">特徴紹介</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- メインビジュアル -->
+    <section class="hero">
+        <div class="container">
+            <h1>週末、どっち行く？</h1>
+            <p>アクアウォーク大垣 ＆ モレラ岐阜を紹介</p>
+        </div>
+    </section>
+
+    <!-- メインコンテンツ -->
+    <main class="container">
+        
+        <!-- モール一覧セクション -->
+        <section id="malls" class="malls-section">
+            <h2 class="section-title">注目のショッピングモール</h2>
+            <div class="mall-grid">
+                <!-- カード 1: アクアウォーク大垣 -->
+                <div class="mall-card">
+                    <div class="mall-image">アクアウォーク大垣</div>
+                    <div class="mall-info">
+                        <span class="mall-tag">大垣駅直結・好アクセス</span>
+                        <div class="mall-name">アクアウォーク大垣</div>
+                        <p class="mall-desc">JR大垣駅北口から連絡通路で直結！アピタを核店舗に、約130の専門店が集まる、電車でも車でも通いやすい抜群の利便性を誇るモールです。</p>
+                    </div>
+                </div>
+
+                <!-- カード 2: モレラ岐阜 -->
+                <div class="mall-card">
+                    <div class="mall-image">モレラ岐阜</div>
+                    <div class="mall-info">
+                        <span class="mall-tag">本巣市・エリア最大級</span>
+                        <div class="mall-name">モレラ岐阜</div>
+                        <p class="mall-desc">東海地方最大級の屋内メガモール。話題の激安スーパー「ロピア」やラウンドワン、映画館、約240の専門店が揃い、樽見鉄道の駅からも直結しています。</p>
+                        <a href="spot-a.html">モレラ岐阜</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 詳しい紹介＆比較セクション -->
+        <section id="compare" class="intro-section">
+            <h2 class="section-title">各モールの魅力と特徴</h2>
+            
+            <div class="intro-block">
+                <h3>1. アクアウォーク大垣</h3>
+                <p class="intro-lead">「JR大垣駅直結！お買い物も移動もスムーズな快適モール」</p>
+                <p>最大の特徴は、JR大垣駅北口から連絡通路（アクアブリッジ）で直結している点です。雨の日でも濡れずにアクセスでき、電車移動の人にとって非常に便利な立地です。</p>
+                <p>スーパーの「アピタ大垣店」を核に約130の専門店が集まっており、無印良品やユニクロなど定番ブランドがコンパクトにまとまっているため、効率よく買い物ができます。</p>
+                <ul>
+                    <li><strong>こんな人におすすめ：</strong></li>
+                    <li>・仕事や学校帰りに電車でサクッと立ち寄りたい方</li>
+                    <li>・広すぎて歩き疲れるモールより、短時間で効率的にお買い物を済ませたい方</li>
+                </ul>
+            </div>
+
+            <div class="intro-block">
+                <h3>2. モレラ岐阜</h3>
+                <p class="intro-lead">「東海地方最大級！ロピア・映画・アミューズメントが揃うメガモール」</p>
+                <p>約240店舗という圧倒的なスケールを誇る屋内型メガモールです。樽見鉄道「モレラ岐阜駅」からすぐの場所にあり、広大な駐車場も完備しています。</p>
+                <p>激安で大人気のご当地スーパー「ロピア」をはじめ、話題のファッション、大型アミューズメント施設「ラウンドワン」、映画館（TOHOシネマズ）まで何でも揃っています。</p>
+                <ul>
+                    <li><strong>こんな人におすすめ：</strong></li>
+                    <li>・映画を観たりお買い物をしたりして、1日中たっぷりと遊び尽くしたい方</li>
+                    <li>・「ロピア」で話題のデカ盛り惣菜や新鮮でお得な食材をまとめ買いしたい方</li>
+                </ul>
+            </div>
+
+            <h3 class="table-title">💡 2つのモールのまとめ</h3>
+            <div class="table-responsive">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>特徴</th>
+                            <th>アクアウォーク大垣</th>
+                            <th>モレラ岐阜</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>アクセス</strong></td>
+                            <td><span class="highlight-text">JR大垣駅 直結</span>（徒歩すぐ）</td>
+                            <td>樽見鉄道 モレラ岐阜駅 近く / 車が便利</td>
+                        </tr>
+                        <tr>
+                            <td><strong>店舗数</strong></td>
+                            <td>約130店舗（回りやすいサイズ）</td>
+                            <td><span class="highlight-text">約240店舗</span>（エリア最大級）</td>
+                        </tr>
+                        <tr>
+                            <td><strong>主なエンタメ</strong></td>
+                            <td>お買い物・グルメ中心</td>
+                            <td><span class="highlight-text">映画館、ラウンドワン</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>食品スーパー</strong></td>
+                            <td>アピタ</td>
+                            <td><span class="highlight-text">ロピア（激安で話題）</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- フッター -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 MallNavi 西濃・本巣. All Rights Reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
