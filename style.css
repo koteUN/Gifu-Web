@@ -144,3 +144,9 @@ footer {
     font-size: 0.9rem;
 }
 
+/* アクアウォーク用 */
+.b-table {
+    margin: auto;
+    width: 80%;
+    background-color: #fff;
+}
